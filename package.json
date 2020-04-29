@@ -1,0 +1,27 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "Pong multiplayer game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chitrank_dixit@bitbucket.org/chitrank_dixit/pong-g1.git"
+  },
+  "keywords": [
+    "pong",
+    "arcade",
+    "multiplayer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/chitrank_dixit/pong-g1#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
